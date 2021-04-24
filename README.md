@@ -1,4 +1,4 @@
-# vr-paint
+# VR-paint
 ## Member
 | Name  | github |
 | :-------------: | ------------- |
