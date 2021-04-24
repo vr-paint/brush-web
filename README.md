@@ -2,7 +2,7 @@
 ## Member
 | Name  | github |
 | :-------------: | ------------- |
-| hsushaochun  | https://github.com/hsushaochun  |
+| shaochun Hsu  | https://github.com/hsushaochun  |
 | 徐   | https://github.com/c00330033c  |
 | 楊   | https://github.com/kuchyang  |
 | 張   | https://github.com/qazwsx87911  |
