@@ -6,7 +6,6 @@
 + [Repositories](https://github.com/vr-paint/brush)
 + [Video Link](https://youtu.be/XmyNU33L2q0 "YouTube")
 
-# 系統使用
 
 ## Unity安裝說明
 1. 進入[Unity download archive](https://unity3d.com/get-unity/download/archive)安裝*2019.2.21f1*版本，並使用UnityHub開啟專案。
