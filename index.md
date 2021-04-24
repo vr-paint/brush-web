@@ -3,12 +3,8 @@
 使用*Unity 2019.2.21f1*  
 此專案可以在VR空間中畫圖，左右手有不同的功能可供使用。  
 ## Link 
-+ [系統使用](https://github.com/vr-paint/brush#%E7%B3%BB%E7%B5%B1%E4%BD%BF%E7%94%A8)
-  1. [Unity安裝說明](https://github.com/vr-paint/brush#unity%E5%AE%89%E8%A3%9D%E8%AA%AA%E6%98%8E)
-  2. [VR操作準備](https://github.com/vr-paint/brush#vr%E6%93%8D%E4%BD%9C%E6%BA%96%E5%82%99)
-  3. [手把控制器按鍵說明](https://github.com/vr-paint/brush#%E6%89%8B%E6%8A%8A%E6%8E%A7%E5%88%B6%E5%99%A8%E6%8C%89%E9%8D%B5%E8%AA%AA%E6%98%8E)
-+ [研究方法](https://github.com/vr-paint/brush/blob/ec404d3b6a79cb90b4d631c41713c9af91efe738/.github/Readme_ResearchMethods.md)
-*  [Video Link](https://youtu.be/XmyNU33L2q0 "YouTube")
++ [Repositories](https://github.com/vr-paint/brush)
++ [Video Link](https://youtu.be/XmyNU33L2q0 "YouTube")
 
 # 系統使用
 
