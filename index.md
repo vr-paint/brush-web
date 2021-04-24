@@ -26,9 +26,6 @@ draw_line專案，這是邵鈞組 VR brush 的專案，使用*Unity 2019.2.21f1*
 3. 跳出一個選單畫面後，最上面會有觸控板跟十字鍵的功能。選擇觸控板，左側會多一個觸控板操作的設定。`位置`欄位選擇`Touchpad`，`觸控板操作`欄位的左下角打勾。
 4. 最後按下面的儲存個人配置，就可以使用調色盤介面。
 
-## 手把控制器按鍵說明
-<img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/Touchpad.png" height="240"><img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/Trigger%20Grip.png" height="240">
-
 
 ### 參考文獻
 ```
