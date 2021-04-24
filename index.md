@@ -2,12 +2,12 @@
 
 ## Link 
 + [系統使用](https://github.com/vr-paint/brush#%E7%B3%BB%E7%B5%B1%E4%BD%BF%E7%94%A8)
-  + [Unity安裝說明](https://github.com/vr-paint/brush#unity%E5%AE%89%E8%A3%9D%E8%AA%AA%E6%98%8E)
-  + [VR操作準備](https://github.com/vr-paint/brush#vr%E6%93%8D%E4%BD%9C%E6%BA%96%E5%82%99)
-  + [手把控制器按鍵說明](https://github.com/vr-paint/brush#%E6%89%8B%E6%8A%8A%E6%8E%A7%E5%88%B6%E5%99%A8%E6%8C%89%E9%8D%B5%E8%AA%AA%E6%98%8E)
+  1. [Unity安裝說明](https://github.com/vr-paint/brush#unity%E5%AE%89%E8%A3%9D%E8%AA%AA%E6%98%8E)
+  2. [VR操作準備](https://github.com/vr-paint/brush#vr%E6%93%8D%E4%BD%9C%E6%BA%96%E5%82%99)
+  3. [手把控制器按鍵說明](https://github.com/vr-paint/brush#%E6%89%8B%E6%8A%8A%E6%8E%A7%E5%88%B6%E5%99%A8%E6%8C%89%E9%8D%B5%E8%AA%AA%E6%98%8E)
 + [研究方法](https://github.com/vr-paint/brush/blob/ec404d3b6a79cb90b4d631c41713c9af91efe738/.github/Readme_ResearchMethods.md)
 *  [Video Link](https://youtu.be/XmyNU33L2q0 "YouTube")
-***
+
 # 簡介
 draw_line專案，這是邵鈞組 VR brush 的專案，使用*Unity 2019.2.21f1*  
 此專案可以在VR空間中畫圖，左右手有不同的功能可供使用。  
@@ -29,23 +29,7 @@ draw_line專案，這是邵鈞組 VR brush 的專案，使用*Unity 2019.2.21f1*
 ## 手把控制器按鍵說明
 <img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/Touchpad.png" height="240"><img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/Trigger%20Grip.png" height="240">
 
-### 右手手把操作
-右手手把是畫線的，該手把上面沒有ICON功能鍵。下圖為操作圖：  
-<P Align=center><img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/righthand_buttom.png" height="350">  
- 
-1. 扣下扳機鍵即可繪製出具有3D立體感的平面，這些平面會化成使用者作畫的線條存在在3D空間當中。
-2. 使用者可以透過扣手把板機的力道決定線條的粗細，減少了調整粗細的ICON，使得使用者操作變得更加方便。
 
-### 左手手把操作
-左手手把的主要作用是繪畫功能選擇，下圖為操作圖：  
-<P Align=center><img src="https://github.com/vr-paint/brush/blob/main/Assets/picture/explain_user/trigger_side.png" height="350">  
- 
-1. 扣下扳機鍵可以決定使用當前ICON的功能。並且藉由觸控板點擊左右兩側，可以進行功能的切換。
-2. 當使用者點選進入調色盤功能後，觸控板的功能會變成可以透過觸摸不同位置，來決定色環對應位置上方的顏色。
-3. 當使用者在調色盤功能中時，可以按下握持鍵進入調整色度的介面，一樣透過觸控板操作，可以變換當下顏色的色度。
-
-***
-***
 ### 參考文獻
 ```
 [1]	謝其叡, 薛猷騰, 何誼庭, 黃慧緣, 呂昱辰, and 葉正聖, "陶藝與浮雕：Leap Motion結合VR之互動塑模," presented at the Computer Graphics Workshop, 台中, 2017.
@@ -59,8 +43,8 @@ draw_line專案，這是邵鈞組 VR brush 的專案，使用*Unity 2019.2.21f1*
 ```
 
 ### 參考資料
-* [The Future of Tilt Brush](https://opensource.googleblog.com/2021/01/the-future-of-tilt-brush.html?fbclid=IwAR1vozx-rK-ldgz0Tcc2TVXNJutNq1DX1O2dpW7Z0HgNXwDjXyFr8geXPEc "Google Open Source Blog")  
-* [github/googlevr/tilt-brush](https://github.com/googlevr/tilt-brush "github") 
-* [Unity VR Tutorial: How To Build Tilt Brush From Scratch](https://youtu.be/eMJATZI0A7c "YouTube")  
-* [github/orifmilod/KdTree-Unity3D](https://github.com/orifmilod/KdTree-Unity3D "github") 
+- [The Future of Tilt Brush](https://opensource.googleblog.com/2021/01/the-future-of-tilt-brush.html?fbclid=IwAR1vozx-rK-ldgz0Tcc2TVXNJutNq1DX1O2dpW7Z0HgNXwDjXyFr8geXPEc "Google Open Source Blog")  
+- [github/googlevr/tilt-brush](https://github.com/googlevr/tilt-brush "github") 
+- [Unity VR Tutorial: How To Build Tilt Brush From Scratch](https://youtu.be/eMJATZI0A7c "YouTube")  
+- [github/orifmilod/KdTree-Unity3D](https://github.com/orifmilod/KdTree-Unity3D "github") 
 
