@@ -1,6 +1,6 @@
 # VR-paint
 ## Member
-| Name  | github |------------- |
+| Name  | github |eMail |
 | :-------------: | ------------- |------------- |
 | shaochun Hsu  | https://github.com/hsushaochun  |------------- |
 | 徐   | https://github.com/c00330033c  |------------- |
