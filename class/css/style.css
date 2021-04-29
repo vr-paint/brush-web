@@ -22,15 +22,10 @@ body {
 }
 
 h1 {/*標題*/
-
   margin-left: 45px;
   text-align: center;
 }
 
-p {
-  font-family: verdana;
-  
-}
 
 /* Style the footer */
 footer {
