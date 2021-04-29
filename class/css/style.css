@@ -27,7 +27,8 @@ p {
 /* Style the footer */
 footer {
   background-color: #0099ff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: #ffffff;
+  font-size: 10px;
 }
