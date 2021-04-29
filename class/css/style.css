@@ -13,7 +13,7 @@
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {/*標題*/
-  margin-left: 45px;
+  /*margin-left: 45px;*/
   text-align: center;
 }
 
