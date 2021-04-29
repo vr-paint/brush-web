@@ -23,13 +23,10 @@ body {
 }
 
 h1 {/*標題*/
-  /*margin-left: 45px;*/
   text-align: center;
 }
 
-
-/* Style the footer */
-footer {
+footer {/* Style the footer */
   background-color: #0099ff;
   padding: 5px;
   text-align: center;
