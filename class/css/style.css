@@ -3,6 +3,7 @@
   /*padding:15px;*/
   /*float:left;*/
   /*width:20%;  The width is 20%, by default */
+  text-align: center;
   color:#ffffff;
 }
 
@@ -25,7 +26,7 @@ p {
 /* Style the footer */
 footer {
   background-color: #0099ff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: #ffffff;
 }
