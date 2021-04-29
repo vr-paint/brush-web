@@ -1,10 +1,11 @@
 .Navigation_Bar {
-  background-color:#0099ff;
+  background-color: #0099ff;
   /*padding:15px;*/
   /*float:left;*/
   /*width:20%;  The width is 20%, by default */
   text-align: center;
-  color:#ffffff;
+  width: 100%;
+  color: #ffffff;
 }
 
 body {
