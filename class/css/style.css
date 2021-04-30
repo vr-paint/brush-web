@@ -29,7 +29,7 @@ h1 {/*標題*/
 footer {/* Style the footer */
   background-color: #0099ff;
   padding: 5px;
-  text-align: center;
+  /*text-align: center;*/
   color: #ffffff;
   font-size: 10px;
 }
