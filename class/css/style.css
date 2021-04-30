@@ -23,8 +23,8 @@
 }
 
 body {
-  background-color: #F0FFFF;
-  font-family: Arial, sans-serif;
+  background-color: #F0FFFF; /*Azure-blue*/
+  font-family: Arial, sans-serif; /*字型*/
 }
 
 h1 {/*標題*/
