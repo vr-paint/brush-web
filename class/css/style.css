@@ -4,22 +4,17 @@
 }
 
 .Navigation_Bar {
-  background-color: #0099ff;
-  /*padding:15px;*/
-  /*float:left;*/
-  /*width:20%;  The width is 20%, by default */
+  background-color: #0099ff; color: #ffffff;
+  /*padding:15px;*/ /*float:left;*/ /*width:20%; 寬度默認為20％ */
   text-align: center;
   width: 100%;
-  color: #ffffff;
+  
 }
 .Abstract {
-  background-color: #e6ffff;
+  background-color: #e6ffff;/*Light Cyan 淺青色*/
   color: #000d1a;
-  border: 0px solid black;
-  margin: 10px;
-  padding: 10px;
+  border: 0px solid black; margin: 10px; padding: 10px;
   font-size: 18px;
-  
 }
 
 body {
@@ -32,10 +27,9 @@ h1 {/*標題*/
 }
 
 footer {/* Style the footer */
-  background-color: #0099ff;
+  background-color: #0099ff; color: #ffffff;
   padding: 5px;
   /*text-align: center;*/
-  color: #ffffff;
   font-size: 10px;
 }
 
