@@ -1,3 +1,8 @@
+.block_Orchid-blue {/*蘭色背景 白色文字*/
+  background-color: #0099ff;
+  color: #ffffff;
+}
+
 .Navigation_Bar {
   background-color: #0099ff;
   /*padding:15px;*/
@@ -37,7 +42,7 @@ footer {/* Style the footer */
 
 .embed-container { 
   position: relative; 
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%; /*長寬比*/
   height: 0; 
   overflow: hidden; max-width: 100%; 
 } 
