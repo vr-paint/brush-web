@@ -8,15 +8,13 @@
     
 <style>
 ul {
-  list-style-type: none;
-  margin: 0; padding: 0;
-  overflow: hidden;
-  background-color: #0099ff;
+  list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+  /*background-color: #0099ff;*/
+  position: fixed; top: 0; width: 100%;/*使導航欄保持在頁面頂部*/
 }
 li { float: left;/*使彼此相鄰滑動*/ border-right: 2px solid #bbb;/*創建分隔符*/}
 li a {
-  display: block;/*允許我們指定填充*/
-  color: white;
+  display: block;/*允許我們指定填充*/ /*color: white;*/
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
@@ -29,18 +27,16 @@ li a:hover { background-color: #111;}
   
   <body>
     <!-- 導航欄 (sit on top) -->
-   <div class="Bar-top" >
+   <!-- <div class="Bar-top" > -->
     <div class="Navigation_Bar Block_Orchid-blue" >
-
-<ul>
-  <li><a href="https://github.com/vr-paint" title="vr-paint">Organization</a></li>
-  <li style="float:right"><a href="https://drive.google.com/file/d/1uKlinXyja1ZLymo6fSq7yu2fxcNJh7AM/view?usp=sharing">Executable</a></li>
-  <li style="float:right"><a href="https://vr-paint.github.io/brush-web/%E7%A7%91%E6%8A%80%E9%83%A8%E5%A4%A7%E5%B0%88%E7%94%9F%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%EF%BC%88109-2813-C-130-031-E%EF%BC%89.pdf" title="PDF">Paper</a></li>
-  <li style="float:right"><a href="https://github.com/vr-paint/brush">Repositories</a></li>
-</ul>
-      
+      <ul>
+        <li><a href="https://github.com/vr-paint" title="vr-paint">Organization</a></li>
+        <li style="float:right"><a href="https://drive.google.com/file/d/1uKlinXyja1ZLymo6fSq7yu2fxcNJh7AM/view?usp=sharing">Executable</a></li>
+        <li style="float:right"><a href="https://vr-paint.github.io/brush-web/%E7%A7%91%E6%8A%80%E9%83%A8%E5%A4%A7%E5%B0%88%E7%94%9F%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%EF%BC%88109-2813-C-130-031-E%EF%BC%89.pdf" title="PDF">Paper</a></li>
+        <li style="float:right"><a href="https://github.com/vr-paint/brush">Repositories</a></li>
+      </ul>
     </div>
-   </div>
+   <!-- </div> -->
     
     <div style="text-align: center">
       <h1><b>VR漆刷式繪畫</b></h1>
