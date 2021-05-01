@@ -4,7 +4,7 @@
 }
 
 .Navigation_Bar {
-  background-color: #0099ff; color: #ffffff;
+  /*background-color: #0099ff; color: #ffffff;*/
   /*padding:15px;*/ /*float:left;*/ /*width:20%; 寬度默認為20％ */
   text-align: center;
   width: 100%;
@@ -27,7 +27,7 @@ h1 {/*標題*/
 }
 
 footer {/* Style the footer */
-  background-color: #0099ff; color: #ffffff;
+  /*background-color: #0099ff; color: #ffffff;*/
   padding: 5px;
   /*text-align: center;*/
   font-size: 10px;
