@@ -22,9 +22,7 @@ body {
   font-family: Arial, sans-serif; /*字型*/
 }
 
-h1 {/*標題*/
-  text-align: center;
-}
+h1 {/*標題*/ text-align: center;}
 
 footer {/* Style the footer */
   /*background-color: #0099ff; color: #ffffff;*/
