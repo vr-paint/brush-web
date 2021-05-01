@@ -2,12 +2,10 @@
   background-color: #0099ff;
   color: #ffffff;
 }
-
+.Bar-top, .Bar-bottom{position:fixed;/*固定在相同的位置*/width:100%;z-index:1;/*設定區塊的 z軸位置*/} .Bar-top{top:0;} .Bar-bottom{bottom:0;}
 .Navigation_Bar {
   /*background-color: #0099ff; color: #ffffff;*/
   /*padding:15px;*/ /*float:left;*/ /*width:20%; 寬度默認為20％ */
-  position: fixed; /*固定在相同的位置*/ 
-  z-index: 1;/*設定區塊的 z軸位置*/ top:0;
   text-align: center;
   width: 100%;
   
