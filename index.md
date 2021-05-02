@@ -1,40 +1,85 @@
-# VR漆刷式繪畫
-是[邵鈞組](https://github.com/vr-paint)的VR-paint_brush專案  
-使用*Unity 2019.2.21f1*  
-此專案可以在VR空間中畫圖，左右手有不同的功能可供使用。  
-## Link 
-+ [Repositories](https://github.com/vr-paint/brush)
-+ [Video Link](https://youtu.be/XmyNU33L2q0 "YouTube")
-
-
-## Unity安裝說明
-1. 進入[Unity download archive](https://unity3d.com/get-unity/download/archive)安裝*2019.2.21f1*版本，並使用UnityHub開啟專案。
-2. 我們有另外準備[執行檔](https://drive.google.com/file/d/1uKlinXyja1ZLymo6fSq7yu2fxcNJh7AM/view?usp=sharing)使用，點開game資料夾中的draw_line執行檔案。
-
-## VR操作準備
-準備好VR頭戴式顯示器、手把控制器、基地台。  
-由於是VR類型的專案，當遇到無法使用觸控板更改調色盤的時候，請參考下面的解決方法: (請以各家廠牌手把為主，此說明適用HTC VIVE Pro手把)  
-1. 按下手把的選單鍵，接著進入按鍵`控制器按鍵配置`，將配置改成drawline。(上面有管理此應用程式的控制配置。若無，則直接使用安裝說明1的方式開啟專案檔)。看向畫面中間的使用中的控制器配置，將選項從預設改成自訂。
-2. 手把按下修改此配置，會出現選單可改手把與配置。左邊往下滑，找到觸控板功能按旁邊的+號標誌。
-3. 跳出一個選單畫面後，最上面會有觸控板跟十字鍵的功能。選擇觸控板，左側會多一個觸控板操作的設定。`位置`欄位選擇`Touchpad`，`觸控板操作`欄位的左下角打勾。
-4. 最後按下面的儲存個人配置，就可以使用調色盤介面。
-
-
-### 參考文獻
-```
-[1]	謝其叡, 薛猷騰, 何誼庭, 黃慧緣, 呂昱辰, and 葉正聖, "陶藝與浮雕：Leap Motion結合VR之互動塑模," presented at the Computer Graphics Workshop, 台中, 2017.
-[2]	C. Tseng and J.-S. Yeh, "A Kinect-based System for Virtual Sculpture," presented at the Computer Graphics Workshop 台北, 2015.
-[3]	許志遙, 蔡閎鈞, 林伯儒, 邱俊澄, 呂昱辰, and 葉正聖, "以HTC Vive 為基礎 VR 3D繪本," presented at the Computer Graphics Workshop 台北, 2016.
-[4]	E. Rosales, J. Rodriguez, and A. SHEFFER, "SurfaceBrush: from virtual reality drawings to manifold surfaces," ACM Trans. Graph., vol. 38, no. 4, p. Article 96, 2019.
-[5]	C.-W. Chen, J.-W. Peng, C.-M. Kuo, M.-C. Hu, and Y.-C. Tseng, "Ontlus: 3d content collaborative creation via virtual reality," in International Conference on Multimedia Modeling, 2018: Springer, pp. 386-389.
-[6]	D. Keefe, R. Zeleznik, and D. Laidlaw, "Drawing on Air: Input Techniques for Controlled 3D Line Illustration," IEEE Transactions on Visualization and Computer Graphics, vol. 13, no. 5, pp. 1067-1081, 2007.
-[7]	S. Schkolne, M. Pruett, and P. Schröder, "Surface drawing: creating organic 3D shapes with the hand and tangible tools," presented at the Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, Seattle, Washington, USA, 2001. [Online]. Available: https://doi-org.erm.lib.mcu.edu.tw/10.1145/365024.365114.
-[8]	S.-H. Bae, R. Balakrishnan, and K. Singh, "ILoveSketch: as-natural-as-possible sketching system for creating 3d curve models," presented at the Proceedings of the 21st annual ACM symposium on User interface software and technology, Monterey, CA, USA, 2008. [Online]. Available: https://doi-org.erm.lib.mcu.edu.tw/10.1145/1449715.1449740.
-```
-
-### 參考資料
-- [The Future of Tilt Brush](https://opensource.googleblog.com/2021/01/the-future-of-tilt-brush.html?fbclid=IwAR1vozx-rK-ldgz0Tcc2TVXNJutNq1DX1O2dpW7Z0HgNXwDjXyFr8geXPEc "Google Open Source Blog")  
-- [github/googlevr/tilt-brush](https://github.com/googlevr/tilt-brush "github") 
-- [Unity VR Tutorial: How To Build Tilt Brush From Scratch](https://youtu.be/eMJATZI0A7c "YouTube")  
-- [github/orifmilod/KdTree-Unity3D](https://github.com/orifmilod/KdTree-Unity3D "github") 
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VR漆刷式繪畫</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="vr-paint, Brush, VR漆刷式繪畫">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="class/css/style.css">
+    <link rel="icon" type="image/png" size="128x128 64x64" href="class/image/vrpb002.png">
+    <link rel="icon" type="image/png" size="16x16 32x32" href="class/image/vrpb002.png">
+    
+<style>
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+  background-color: #0099ff;
+  position: fixed; top: 0; width: 100%;/*使導航欄保持在頁面頂部*/
+}
+li { float: left;/*使彼此相鄰滑動*/ border-right: 1px solid #bbb;/*創建分隔符*/}
+li a { display: block;/*允許我們指定填充*/ color: white;
+  text-align: center; padding: 5px 16px;
+  text-decoration: none;
+}
+li a:hover { background-color: #111;}
+</style>
+    
+    
+  </head>
+  
+  <body>
+    <!-- 導航欄 (sit on top) -->
+   <!-- <div class="Bar-top" > -->
+    <div class="Navigation_Bar Block_Orchid-blue" >
+      <ul>
+        <li><a href="https://github.com/vr-paint" title="vr-paint">GitHub</a></li>
+        <li style="float:right"><a href="https://drive.google.com/file/d/1uKlinXyja1ZLymo6fSq7yu2fxcNJh7AM/view?usp=sharing">Exe</a></li>
+        <li style="float:right"><a href="https://vr-paint.github.io/brush-web/%E7%A7%91%E6%8A%80%E9%83%A8%E5%A4%A7%E5%B0%88%E7%94%9F%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%EF%BC%88109-2813-C-130-031-E%EF%BC%89.pdf" title="PDF">Paper</a></li>
+        <li style="float:right"><a href="https://github.com/vr-paint/brush">Repository</a></li>
+      </ul>
+    </div>
+   <!-- </div> -->
+    
+    <div style="text-align: center">
+      <h1><b>VR漆刷式繪畫</b></h1>
+        VR-Paint Brush
+    </div>
+    
+    <div style="font-size: 18px; text-align: center">
+      <p>許邵鈞、徐宏宇、楊恭彰、張佑銓、<a href="https://jsyeh.org/" target="_blank" title="葉正聖">葉正聖</a></p>
+    </div>
+    
+    <div class="Abstract" >
+      <h2>　摘要</h2>
+      <p>　　本計畫主題是漆刷式繪畫,通過設備輔助可以進入 VR 世界進行繪圖。
+        繪畫出的帶狀線條會具有 VR 空間中特有立體感,呈現出來的成果也與一般 2D 繪畫截然不同效果。
+        使用的開發程式為 Unity3D,透過結合 SteamVR 來進行介面設置與手把控制。
+       本計畫操作方式類似小畫家等繪圖軟體,並且做出相關的使用指南方便使用者上手。</p>
+      <p>　　縫合功能是為了方便使用者繪圖的功能,基本定義是若兩線帶距離相近,程式會自動將其縫合成平面,
+       減少多餘的空隙產生,可以降低繪畫平面的難度。不過這樣的特殊功能會衍生出,
+       因為資料點重複存取及反覆搜索相近的距離,導致程式緩慢甚至卡頓的問題。</p>
+      <p>　　為了處理這樣的問題,本計畫使用 KDTree 解決。這個搜尋法可以減少為了檢索資料點而執行過多次的情況,透過分類的方式給將需要的資料點放入 KDTree 當中。
+       因為經過多層的分類,檢索會加速許多,同樣的程式也不會多次執行,可以有效的使程式負擔減少。
+       最終成品期望做到使用者可以繪畫出完整的圖畫,並且順利的縫合線帶間的空隙,建構出完整的 3D 物件。</p>
+      <p>　　在做 Unity 專案的時候,經常遇到版本控制的問題,所以本計畫最後利用 GitHub 解決此問題。
+       正確的更新專案可以免去很多版本錯誤所浪費的時間,而且放在網路上也可以被更多的人看見。</p>
+    </div>
+      
+    
+    <div class="embed-container" style="text-align:center">
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/XmyNU33L2q0"
+            frameborder="1" /*隱藏＆顯示邊框*/
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+    </div>
+    
+    <div class="Block_Orchid-blue" >
+    <footer>
+      <h5><b>Tools </b></h5>
+        HTC VIVE Pro, Unity_2019.2.21f1, SteamVR, GitHub
+ <img alt="vr-paint/brush" style="float:right;width:40px;height:50px;" src="class/image/vrpb002.png">
+  <img alt="vr-paint/brush" style="float:right;width:40px;height:50px;" src="class/image/vrpb001.png">
+      <h5><b>Plan </b></h5>
+        科技部大專生研究計畫, 2020（Number: 109-2813-C-130-031-E）
+    </footer>
+    </div >
+    
+  </body>
+</html>
