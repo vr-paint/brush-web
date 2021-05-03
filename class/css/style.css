@@ -32,6 +32,19 @@ footer {/* Style the footer */
 }
 
 
+
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+  background-color: #0099ff;
+  position: fixed; top: 0; width: 100%;/*使導航欄保持在頁面頂部*/
+}
+li { float: left;/*使彼此相鄰滑動*/ border-right: 1px solid #bbb;/*創建分隔符*/}
+li a { display: block;/*允許我們指定填充*/ color: white;
+  text-align: center; padding: 5px 16px;
+  text-decoration: none;
+}
+li a:hover { background-color: #111;}
+
+
 .embed-container { 
   position: relative; 
   padding-bottom: 56.25%; /*長寬比*/
