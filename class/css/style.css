@@ -20,6 +20,7 @@
 body {
   background-color: #F0FFFF; /*Azure-blue*/
   font-family: Arial, sans-serif; /*字型*/
+  margin: 0;
 }
 
 h1 {/*標題*/ text-align: center;}
