@@ -48,7 +48,7 @@ li a:hover { background-color: #111;}
 
 .embed-container { 
   position: relative; 
-  padding-bottom: 56.25%; /*長寬比*/
+  padding-bottom: 52.25%; /*長寬比*/
   height: 0; 
   overflow: hidden; max-width: 100%; 
 } 
