@@ -4,8 +4,7 @@
 }
 .Bar-top, .Bar-bottom{position:fixed;/*固定在相同的位置*/width:100%;/*z-index:1;/*設定區塊的 z軸位置*/} .Bar-top{top:0;} .Bar-bottom{bottom:0;}
 .Navigation_Bar {
-  /*background-color: #0099ff; color: #ffffff;*/
-  /*padding:15px;*/ /*float:left;*/ /*width:20%; 寬度默認為20％ */
+  /*background-color:#0099ff; color: #ffffff; padding:15px; float:left; width:20%; 寬度默認為20％ */
   text-align: center;
   width: 100%;
   
@@ -24,7 +23,7 @@ body {
 }
 
 h1 {/*標題*/ text-align: center;}
-a{color:#F31625;text-decoration:none;/*隱藏底線*/}a:hover{text-decoration:underline;}
+a{color:#9966ff;text-decoration:none;/*隱藏底線*/}a:hover{text-decoration:underline;}
 footer {/* Style the footer */
   /*background-color: #0099ff; color: #ffffff;*/
   padding: 5px;
@@ -40,8 +39,7 @@ ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden;
 }
 li { float: left;/*使彼此相鄰滑動*/ border-right: 1px solid #bbb;/*創建分隔符*/}
 li a { display: block;/*允許我們指定填充*/ color: white;
-  text-align: center; padding: 5px 16px;
-  text-decoration: none;
+  text-align: center; padding: 5px 16px; text-decoration: none;
 }
 li a:hover { background-color: #111;}
 
