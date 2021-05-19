@@ -24,7 +24,7 @@ body {
 }
 
 h1 {/*標題*/ text-align: center;}
-
+a{color:#F31625;text-decoration:none;/*隱藏底線*/}a:hover{text-decoration:underline;}
 footer {/* Style the footer */
   /*background-color: #0099ff; color: #ffffff;*/
   padding: 5px;
