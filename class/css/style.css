@@ -1,10 +1,8 @@
 .Block_Orchid-blue {/*蘭色背景 白色文字*/
-  background-color: #0099ff;
-  color: #ffffff;
+  background-color: #0099ff; color: #ffffff;
 }
 .Bar-top, .Bar-bottom{position:fixed;/*固定在相同的位置*/width:100%;/*z-index:1;/*設定區塊的 z軸位置*/} .Bar-top{top:0;} .Bar-bottom{bottom:0;}
-.Navigation_Bar {
-  /*background-color:#0099ff; color: #ffffff; padding:15px; float:left; width:20%; 寬度默認為20％ */
+.Navigation_Bar { /*background-color:#0099ff; color: #ffffff; padding:15px; float:left; width:20%; 寬度默認為20％ */
   text-align: center;
   width: 100%;
   
@@ -22,15 +20,11 @@ body {
   margin: 0;
 }
 
-h1 {/*標題*/ text-align: center;}
-a{color:#9966ff;text-decoration:none;/*隱藏底線*/}a:hover{text-decoration:underline;}
-footer {/* Style the footer */
-  /*background-color: #0099ff; color: #ffffff;*/
-  padding: 5px;
-  /*text-align: center;*/
-  font-size: 10px;
+h1 {text-align: center;}
+a{color:#4c00e6;text-decoration:none;/*隱藏底線*/}a:hover{text-decoration:underline;}
+footer { /*background-color: #0099ff; color: #ffffff;*/
+  padding: 5px; font-size: 10px;
 }
-
 
 
 ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden;
@@ -38,17 +32,11 @@ ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden;
   position: fixed; top: 0; width: 100%;/*使導航欄保持在頁面頂部*/
 }
 li { float: left;/*使彼此相鄰滑動*/ border-right: 1px solid #bbb;/*創建分隔符*/}
-li a { display: block;/*允許我們指定填充*/ color: white;
-  text-align: center; padding: 5px 16px; text-decoration: none;
-}
+li a { display: block;/*允許我們指定填充*/ color: white; text-align: center; padding: 5px 16px; text-decoration: none;}
 li a:hover { background-color: #111;}
 
 
-.embed-container { 
-  position: relative; 
-  padding-bottom: 50.25%; /*長寬比*/
-  height: 0;   overflow: hidden; max-width: 100%; 
+.embed-container {  position: relative; padding-bottom: 50.25%; /*長寬比*/ height: 0;   overflow: hidden; max-width: 100%; 
 } 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-  position: absolute;   top: 0; left: 10%; width: 80%; height: 90%; 
+.embed-container iframe, .embed-container object, .embed-container embed {  position: absolute;   top: 0; left: 10%; width: 80%; height: 90%; 
 }
