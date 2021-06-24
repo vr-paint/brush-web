@@ -1,0 +1,46 @@
+.Block_Color{/*淺黃#F5F2D6 黃#FFEB0A 夜青#4C679A 紅#EA202C 夜#0C2045*/}
+
+.Abstract {
+  border: 0px solid black; margin: 10px; padding: 10px;
+  font-size: 18px;
+}
+
+body {
+  background-color:#F5F2D5;color:#0C2045;
+  font-family: Arial, sans-serif; /*字型*/
+  margin: 0;
+}h1 {/*標題*/ text-align: center;}
+footer {/* 尾腳 */
+  font-size: 10px; padding:1px 14px;
+  background-color:#0C2045;color:#FFEB0A;
+}
+
+a{color:#F31625;text-decoration:none;/*隱藏連結底線*/}a:hover{text-decoration:underline;/*滑鼠移經時顯示底線*/}
+
+ul.sidenav {/*導航欄*/
+  list-style-type: none;
+  margin: 0; padding: 0; width: 22%;/*導航欄寬(邊界)*/
+  background-color: #4C679A;  position: fixed; height: 100%; overflow: auto;
+}
+ul.sidenav li a {
+  display: block;/*指定填充*/ color: #FFEB0A;  padding: 10px 16px; text-decoration: none;
+}
+ul.sidenav li a:hover{/*鼠標移到上方時更改背景色*/  background-color: #0C2045; color: white;
+}
+
+div.content {/*內容*/  margin-left: 22%;/*導航欄寬(邊界)*/  padding: 1px 16px; height: 1000px;
+}
+
+@media screen and (max-width:900px) {/*屏幕<900px,導航欄轉為頂部*/
+  ul.sidenav {width: 100%; height: auto; position: relative; }
+  ul.sidenav li a {float: left; padding: 15px; }
+  div.content {margin-left: 0;}
+}
+@media screen and (max-width:400px) {/*屏幕<400px,導航欄垂直堆疊*/  ul.sidenav li a {text-align: center; float: none; }
+}
+
+
+
+
+.embed-container {   position: relative;   padding-bottom: 56.25%;  height: 0;  overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed {   position: absolute;   top: 0; left: 5%;  width: 90%; height: 100%; }
